@@ -17,9 +17,9 @@ function openMenu(){
     document.getElementById("buttonMenu").style.width = "50px"
     document.getElementById("buttonMenu").style.height = "50px"
     document.getElementById("buttonMenu").style.border = "1px solid #ff6b35"
-    document.getElementById("buttonMenu").style.position = "relative"
-   
-
+    document.getElementById("buttonMenu").style.position = "absolute"
+    document.getElementById("buttonMenu").style.top = "2%"
+    document.getElementById("buttonMenu").style.right = "3%"
 }
 
 
