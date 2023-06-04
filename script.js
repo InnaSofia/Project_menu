@@ -20,6 +20,7 @@ function openMenu(){
     document.getElementById("buttonMenu").style.position = "absolute"
     document.getElementById("buttonMenu").style.top = "2%"
     document.getElementById("buttonMenu").style.right = "3%"
+    document.getElementById("buttonMenu").style.active.background-color = " #fb7447"
 }
 
 
