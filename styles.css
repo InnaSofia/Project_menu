@@ -1,0 +1,97 @@
+html{
+    font-family: Nunito Sans;
+    color: #1C1917;
+}
+
+#hero{
+    background: url(hero.jpg), #0000001c;
+    background-blend-mode:color ;
+    background-position: center top;
+    background-size: cover;
+}
+
+.conteiner{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+#header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+   }
+
+
+   #logo{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    left: 3%;
+}
+
+#logo-conteiner{
+    top: 2%;
+    left: 5%;
+}
+
+
+.conteinerMenu{
+    width: 200px;
+    display: none;
+}
+
+
+
+.buttonMenu{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ff6b35;
+    position: relative;
+}
+
+
+.conteiner-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:2%;
+    right: 3%;
+}
+
+
+.buttonMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-menu{
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+}
+
+.navigation{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid rgb(255, 107, 53);
+    box-shadow: 3px 3px 3px rgba(154, 154, 154, 0.8)
+}
+
+.fa-solid{
+    font-weight: 900;
+    color: #fb7447;
+}
