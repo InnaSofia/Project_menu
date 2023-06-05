@@ -23,6 +23,25 @@ html{
     }
 }
 
+.mobai{
+    display: none;
+}
+
+.pk{
+    display: block;
+}
+
+
+@media(max-width:767px){
+    .pk{
+        display:none;
+    }
+    .mobail{
+        display: block;
+    }
+    }
+
+   
 
 
 @media (max-width:600px) {   
@@ -58,7 +77,7 @@ html{
     width: 200px;
     display: none;
     float: right;
-    margin-top: -40%;
+    margin-top: 40%;
 }
 
 
