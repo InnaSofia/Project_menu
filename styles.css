@@ -12,6 +12,8 @@ html{
     background-blend-mode:color ;
     background-position: center top;
     background-size: cover;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 
@@ -167,6 +169,8 @@ background-color: #fb7447;
     }
 }
 
+
+
 .heading{
     font-size: 60px;
     font-weight: 600;
@@ -175,7 +179,11 @@ background-color: #fb7447;
     max-width: 50%;
     
 }
-
+@media (max-width: 700px){
+    .heading {
+        font-size: 30px;
+    }
+    }
 
 .button:hover{
     transform: scale(1.1);
